@@ -1,6 +1,7 @@
 Author: https://santhoshveer.com/webp-image-conversion-using-gulpjs/
 
 ## Installation
+
 Install Gulp on your Project Directory:
 npm install --save-dev gulp@next
 (or npm i gulp if u have some errors bout gulp)
@@ -15,8 +16,11 @@ Run the below command line it will convert your Images into WebP format
 gulp webpp
 
 ## Project Structure
+
+```
 ├── build/
 │   ├── img/ #folder for png/jpg
 │   │   
 ├── outputs/
 │   ├── images/webps #folder for webp after convertation
+```
